@@ -1,0 +1,183 @@
+/* 
+  
+  .register-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    margin-left: 600px;
+    margin-top: 50px;
+    background-color: #0056b3;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333333;
+    text-align: center;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-container > div {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: #555555;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .log-reg {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .log-reg:hover {
+    color: #0056b3;
+  }
+   
+
+  
+
+  
+   */
+
+   /* General styles */
+
+  
+  .register-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #f0f0f0; /* Light gray background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  /* Input field styles */
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Spacing between input fields */
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    outline: none; /* Remove default outline */
+  }
+  
+  .input:focus {
+    border-color: #0056b3; /* Green border on focus */
+  }
+  /* Button styles */
+  .register-button {
+    background-color:#0056b3 ; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  
+  .register-button:hover {
+    background-color: #0056b3; /* Darker green on hover */
+  }
+  
+  /* Link styles */
+  .log-reg {
+    text-align: center;
+    color:#0056b3; /* Green */
+    font-size: 14px;
+    text-decoration: none; /* Remove underline */
+    margin-top: 10px;
+  }
+  
+  .log-reg:hover {
+    color: #0056b3; /* Darker green on hover */
+  }
+  .alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    z-index: 1000;
+  }
+  
+  .alert.success {
+    background-color: #4CAF50;
+    margin-right: 700px;
+  }
+  
+  .alert.error {
+    background-color: #F44336;
+    margin-right: 700px;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  

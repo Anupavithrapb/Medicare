@@ -1,0 +1,116 @@
+/* Navbar.css */
+.nav-item{
+  justify-content: space-between;
+}
+
+.navbar {
+  background-color: #f8f9fa; /* Light background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navbar-brand img {
+  height: 225px; /* Adjusted height for better visual balance */
+}
+
+.navbar-nav .nav-link {
+  color: #343a40; /* Dark color for links */
+  font-weight: 500; /* Slightly bold for readability */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff; /* Primary color on hover */
+}
+
+.navbar-nav .nav-item.active .nav-link {
+  color: #007bff; /* Active link color */
+  border-bottom: 2px solid #007bff; /* Active link indicator */
+}
+
+.navbar-nav .nav-item.disabled .nav-link {
+  color: #6c757d; /* Disabled link color */
+}
+
+.dropdown-menu {
+  background-color: #ffffff; /* White background for dropdown */
+  border: 1px solid rgba(0, 0, 0, 0.15); /* Light border for dropdown */
+}
+
+.dropdown-menu .dropdown-item {
+  color: #343a40; /* Dark color for dropdown items */
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #f8f9fa; /* Light background on hover */
+  color: #007bff; /* Primary color on hover */
+}
+
+.dropdown-divider {
+  border-top: 1px solid rgba(0, 0, 0, 0.1); /* Light divider color */
+}
+
+.navbar-toggler {
+  border: none; /* Remove default border */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 992px) {
+  .navbar-brand img {
+    height: 40px; /* Smaller height for smaller screens */
+  }
+}
+
+.container-fluid {
+  height: 100px;
+}
+
+.navbar-nav {
+  margin-left: 800px; /* Adjusted margin for alignment */
+  font-size: 20px;
+}
+
+.btn-log {
+  margin-left: 100px; 
+  background-color: #0056b3 ; 
+  color: white; 
+  border-radius: 8px; 
+  padding: 6px 20px; 
+  border: none; 
+  cursor: pointer; 
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-log:hover {
+  background-color: #0056b3; 
+}
+/* .btn-login {
+  margin-left: 10px; 
+  background-color: #007bff; 
+  color: white;
+  border: none; 
+  border-radius: 5px;
+  padding: 8px 20px; 
+  cursor: pointer; 
+}
+
+.btn-login:hover {
+  background-color: #0056b3; 
+}
+
+.btn-logout {
+  margin-left: 10px; 
+  background-color: #dc3545; 
+  color: white; 
+  border: none; 
+  border-radius: 5px;
+  padding: 8px 20px; 
+  cursor: pointer; 
+}
+
+.btn-logout:hover {
+  background-color: #c82333;
+} */
